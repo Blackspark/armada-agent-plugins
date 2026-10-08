@@ -1,0 +1,43 @@
+{
+  "name": "armada-t1",
+  "version": "3.2.0",
+  "description": "Blackspark Armada T1 — agent workflows for Canadian T1 tax files. Includes `gather`: interview a taxpayer, attach source documents, build the input records, flag gaps as tasks, and hand off a tax file whose inputs are complete, ready for the preparation stage of your workflow. Carries the Armada T1 MCP connection itself, pinned to production.",
+  "author": {
+    "name": "Blackspark"
+  },
+  "homepage": "https://www.blacksparkcorp.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "blackspark",
+    "armada",
+    "t1",
+    "tax",
+    "canada",
+    "intake",
+    "gather"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp/armada-t1.json",
+  "interface": {
+    "logo": "./assets/blackspark.png",
+    "logoDark": "./assets/blackspark.png",
+    "developerName": "Blackspark",
+    "category": "Finance & Accounting",
+    "websiteURL": "https://www.blacksparkcorp.com",
+    "brandColor": "#F87D6E",
+    "displayName": "Armada T1",
+    "shortDescription": "Gather Canadian T1 tax files with an agent",
+    "longDescription": "Blackspark Armada T1 brings the Armada tax platform into your agent. The gather skill runs a taxpayer intake interview: it reads the slips and receipts a firm hands over, writes structured input records into Armada, attaches each source document for provenance, raises anything ambiguous as a task rather than guessing, and hands off a tax file whose inputs are complete, ready for the preparation stage of your workflow. Preparation, review and filing stay in the firm's own tax software — this builds the inputs. Every user authenticates individually against Armada ID, so roles and tenant scoping apply exactly as they do in the web app.",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Gather a 2025 tax file for a new client from the slips I'm about to share.",
+      "Which sections of this tax file are still incomplete, and what's blocking Prepare?",
+      "Attach these T4 and T5 slips to the client's file and record where each figure came from."
+    ],
+    "screenshots": []
+  }
+}

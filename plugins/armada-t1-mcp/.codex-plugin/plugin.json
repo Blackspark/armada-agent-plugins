@@ -1,0 +1,34 @@
+{
+  "name": "armada-t1-mcp",
+  "version": "3.0.0",
+  "description": "Blackspark Armada T1 — Claude Code only. This plugin exists so the `armada-t1` plugin can depend on it and pin the MCP tool surface by version, a mechanism Codex does not have. On Codex install `armada-t1` instead: it carries the connection itself. Installing this one on Codex contributes nothing, deliberately.",
+  "author": {
+    "name": "Blackspark"
+  },
+  "homepage": "https://www.blacksparkcorp.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "blackspark",
+    "armada",
+    "t1",
+    "tax",
+    "canada",
+    "mcp"
+  ],
+  "interface": {
+    "logo": "./assets/blackspark.png",
+    "logoDark": "./assets/blackspark.png",
+    "developerName": "Blackspark",
+    "category": "Finance & Accounting",
+    "websiteURL": "https://www.blacksparkcorp.com",
+    "brandColor": "#F87D6E",
+    "displayName": "Armada T1 — connection",
+    "shortDescription": "MCP connection to Armada T1 (Claude Code only)",
+    "longDescription": "The Armada T1 MCP connection. On Claude Code this is installed automatically as a dependency of the Armada T1 plugin, which pins it by version so a change to the tool surface cannot move underneath a workflow. On Codex install \"Armada T1\" instead — it carries the connection itself, and this plugin contributes nothing here.",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "screenshots": []
+  }
+}

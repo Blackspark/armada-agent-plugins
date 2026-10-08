@@ -1,0 +1,27 @@
+{
+  "name": "armada-t1",
+  "displayName": "Armada T1",
+  "version": "4.0.0",
+  "description": "Blackspark Armada T1 — agent workflows for Canadian T1 tax files. Includes `gather`: interview a taxpayer, attach source documents, build the input records, flag gaps as tasks, and hand off a tax file whose inputs are complete, ready for the preparation stage of your workflow.",
+  "author": {
+    "name": "Blackspark"
+  },
+  "homepage": "https://www.blacksparkcorp.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "blackspark",
+    "armada",
+    "t1",
+    "tax",
+    "canada",
+    "intake",
+    "gather"
+  ],
+  "dependencies": [
+    {
+      "name": "armada-t1-mcp",
+      "version": "^3.0.0"
+    }
+  ],
+  "repository": "https://github.com/Blackspark/armada-agent-plugins"
+}

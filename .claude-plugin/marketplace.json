@@ -1,0 +1,40 @@
+{
+  "name": "armada",
+  "owner": {
+    "name": "Blackspark",
+    "email": "support@blacksparkcorp.com"
+  },
+  "description": "Blackspark Armada — the platform's agent surface, packaged. MCP connectors and agent workflows that plug Armada into Claude Code and Codex.",
+  "interface": {
+    "displayName": "Blackspark Armada"
+  },
+  "plugins": [
+    {
+      "name": "armada-t1-mcp",
+      "source": "./plugins/armada-t1-mcp",
+      "description": "Blackspark Armada T1 — the MCP connection. Per-user OAuth via Armada ID; no credentials ship with the plugin. Installed automatically as a dependency of `armada-t1`.",
+      "version": "3.0.0",
+      "category": "connector",
+      "tags": [
+        "blackspark",
+        "armada",
+        "t1",
+        "mcp"
+      ]
+    },
+    {
+      "name": "armada-t1",
+      "source": "./plugins/armada-t1",
+      "description": "Blackspark Armada T1 — agent workflows for Canadian T1 tax files. Includes `gather`: interview, attach documents, build inputs, hand off a file with complete inputs to the preparation stage of your workflow.",
+      "version": "4.0.0",
+      "category": "workflow",
+      "tags": [
+        "blackspark",
+        "armada",
+        "t1",
+        "tax",
+        "intake"
+      ]
+    }
+  ]
+}

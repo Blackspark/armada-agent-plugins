@@ -1,0 +1,20 @@
+{
+  "name": "armada-t1-mcp",
+  "displayName": "Armada T1 — connection",
+  "version": "3.0.0",
+  "description": "Blackspark Armada T1 — the MCP connection. Provides the tool surface for tax files, clients, sections, source materials and tasks. Authentication is per-user via Armada ID (OAuth 2.1 + PKCE); no credentials ship with this plugin. Installed automatically as a dependency of the `armada-t1` plugin.",
+  "author": {
+    "name": "Blackspark"
+  },
+  "homepage": "https://www.blacksparkcorp.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "blackspark",
+    "armada",
+    "t1",
+    "tax",
+    "canada",
+    "mcp"
+  ],
+  "repository": "https://github.com/Blackspark/armada-agent-plugins"
+}
