@@ -24,5 +24,8 @@
     }
   ],
   "repository": "https://github.com/Blackspark/armada-agent-plugins",
-  "icon": "./.claude-plugin/icon.png"
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.blacksparkcorp.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.blacksparkcorp.com/terms-and-conditions",
+  "supportUrl": "https://www.blacksparkcorp.com/contact"
 }
