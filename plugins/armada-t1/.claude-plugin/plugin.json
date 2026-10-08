@@ -23,5 +23,6 @@
       "version": "^3.0.0"
     }
   ],
-  "repository": "https://github.com/Blackspark/armada-agent-plugins"
+  "repository": "https://github.com/Blackspark/armada-agent-plugins",
+  "icon": "./.claude-plugin/icon.png"
 }
