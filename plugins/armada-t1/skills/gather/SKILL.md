@@ -157,7 +157,7 @@ If you're tempted to delete a record because you "think it's wrong," **create a 
 
 ### The file log — the record of what you decided
 - `filelog_append` — append one entry to the file's log, its chain of custody: `kind` (`STATEMENT` = what the taxpayer or a document said; `DECISION` = what was done with it), `body` (one or two sentences), optional `data` (structured figures so amounts add back up), optional section / record anchor, optional `supersedes` (the id of an earlier entry this one corrects — both remain, the reader sees the chain). Append-only: there is no edit and no delete, on any surface.
-- `filelog_list` — read the log, newest first. Read it before deciding something a previous session may already have decided; never repeat an entry that is already there.
+- `filelog_list` — read the log, newest first. Read it before deciding something a previous session may already have decided; never repeat an entry that is already there. An entry anchored to a record carries `anchor_resolves`; `false` means the record was later deleted — the entry stands, do not search for the record and do not re-log it.
 
 **Log a decision, not an action.** Write an entry only when someone reading the fields alone, later, could not answer *why* — why a stated figure is not there, why something the taxpayer provided is not on the file, why a person or an amount was left out.
 

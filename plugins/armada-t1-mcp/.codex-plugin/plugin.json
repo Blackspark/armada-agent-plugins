@@ -1,6 +1,6 @@
 {
   "name": "armada-t1-mcp",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Blackspark Armada T1 — Claude Code only. This plugin exists so the `armada-t1` plugin can depend on it and pin the MCP tool surface by version, a mechanism Codex does not have. On Codex install `armada-t1` instead: it carries the connection itself. Installing this one on Codex contributes nothing, deliberately.",
   "author": {
     "name": "Blackspark"
