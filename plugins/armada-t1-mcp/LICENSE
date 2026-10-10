@@ -2,21 +2,27 @@ Blackspark Armada Agent Plugin Licence
 
 Copyright (c) 2026 Blackspark Corporation. All rights reserved.
 
-This plugin — its manifests, skill text, configuration and assets — is
-provided by Blackspark Corporation ("Blackspark") so that you can use the
-Armada T1 service from an AI agent.
+This plugin (its manifests, skill text, configuration and assets) is provided
+by Blackspark Corporation ("Blackspark") for use with the Armada service.
 
-Permission is granted to download, install, copy and modify this plugin for
-the purpose of using Armada services under your firm's agreement with
-Blackspark and the Armada terms at
-https://www.blacksparkcorp.com/terms-and-conditions.
+In this licence, "Customer" means a firm that has accepted the Armada Terms of
+Service at https://id.blacksparkcorp.com/terms, and "you" means a Customer, a
+user of a Customer, or a consultant acting for a Customer.
 
-You may not redistribute this plugin, or a modified version of it, as a
-product or service of your own, or present it as endorsed by Blackspark.
-"Blackspark", "Armada" and the Blackspark mark are trademarks of Blackspark
-Corporation and are not licensed by this file.
+You may download, install, copy and modify this plugin to use the Armada
+service for a Customer under the Customer's agreement with Blackspark and the
+Armada Terms of Service. The gather skill is a reference implementation: you
+may adapt it for a Customer or on a Customer's behalf.
 
-Access to the Armada T1 service itself is governed by your agreement with
-Blackspark, not by this licence. THE PLUGIN IS PROVIDED "AS IS", WITHOUT
-WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, AND BLACKSPARK IS NOT LIABLE FOR
-ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM ITS USE.
+You may not redistribute this plugin or a modified version of it as a product
+or service of your own, present it as endorsed by Blackspark, or use it other
+than with the Armada service. This licence ends when the Customer's agreement
+with Blackspark ends. "Blackspark", "Armada" and the Blackspark mark are
+trademarks of Blackspark Corporation and are not licensed by this file.
+
+Access to the Armada service is governed by the Customer's agreement with
+Blackspark and the Armada Terms of Service, not by this licence. THE PLUGIN IS
+PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, AND
+BLACKSPARK IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM ITS USE. This licence is governed by the laws of Ontario and the federal
+laws of Canada applicable there.

@@ -37,5 +37,6 @@ the Claude directory serves it automatically.
 
 - Blackspark: <https://www.blacksparkcorp.com>
 - Privacy policy: <https://www.blacksparkcorp.com/privacy-policy>
-- Terms: <https://www.blacksparkcorp.com/terms-and-conditions>
+- Terms: <https://id.blacksparkcorp.com/terms>
+- Documentation: <https://id.blacksparkcorp.com/help/armada-t1/claude>
 - Support: <support@blacksparkcorp.com>
