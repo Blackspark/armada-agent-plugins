@@ -1,6 +1,6 @@
 {
   "name": "armada-t1",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Blackspark Armada T1 — agent workflows for Canadian T1 tax files. Includes `gather`: interview a taxpayer, attach source documents, build the input records, flag gaps as tasks, and hand off a tax file whose inputs are complete, ready for the preparation stage of your workflow. Carries the Armada T1 MCP connection itself, pinned to production.",
   "author": {
     "name": "Blackspark"
